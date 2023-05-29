@@ -28,9 +28,9 @@ String[] newsletter = (String[])request.getAttribute("newsletter");
 		<p>メールマガジンはお送りしません。</p>
 	</c:otherwise>
 </c:choose>
-<p>この度は資料請求いただきありがとうございます。<br>
+<p>資料請求：<br>
+この度は資料請求いただきありがとうございます。<br>
 以下のリンクから資料ダウンロードが可能です。</p>
 <a href="">資料をダウンロード</a>
-
 
 <%@ include file = "../footer.html" %>
