@@ -25,7 +25,7 @@ String[] newsletter = (String[])request.getAttribute("newsletter");
 		<% } %>に関するメールマガジンをお送りします。</p>
 	</c:when>
 	<c:otherwise>
-		<p>メールマガジンはお送りしません。</p>
+		メールマガジンはお送りしません。</p>
 	</c:otherwise>
 </c:choose>
 <p>資料請求：<br>
